@@ -1,0 +1,43 @@
+.searchResult {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    font-family: "Montagu Slab";
+    background-color: #eae5d220;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    margin: 2%;
+}
+
+.result-graphic {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.result-info h2{
+    color: #da9e63;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.result-info h5, .result-info h3{
+    color: #ffffff;
+}
+
+.result-info-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

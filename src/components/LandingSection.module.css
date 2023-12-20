@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montagu+Slab:opsz,wght@16..144,200;16..144,300;16..144,400&family=Montserrat+Alternates:wght@100;200;300&family=Montserrat:wght@300;600&display=swap");
+
+.text {
+  margin-top: 8%;
+  color: #da9e63;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  font-family: "Montagu Slab", Helvetica;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  object-fit: contain;
+  background-color: rgb(18, 34, 35);
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.bttn {
+  border: 1px solid #eae5d220;
+}
+
+.btntext {
+  font-family: "Montagu Slab", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 610px) {
+  .container {
+    background-size: 500px;
+  }
+  .text{
+    font-size: 30px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px){
+  .container {
+    background-size: 450px;
+  }
+}
+
+@media (max-width: 350px){
+  .container {
+    background-size: 400px;
+  }
+  .text{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 300px){
+  .container {
+    background-size: 300px;
+  }
+}

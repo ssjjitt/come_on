@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montagu+Slab:opsz,wght@16..144,200;16..144,300;16..144,400&family=Montserrat+Alternates:wght@100;200;300&family=Montserrat:wght@300;600&display=swap");
+
+.album {
+  margin-top: 3%;
+  font-family: "Montagu Slab";
+  display: flex;
+  padding: 2% 7%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-cover {
+  height: 75%;
+  width: 75%;
+}
+
+.album-cover:hover {
+  transform: scale(1.1);
+}
+
+.album-title,
+.album-artist,
+.album-year {
+  font-family: "Montagu Slab";
+  text-transform: uppercase;
+  color: #da9e63;
+  text-align: center;
+  letter-spacing: 4.8px;
+  font-size: 20px;
+}
+
+.album-title,
+.album-year {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.album-details {
+  width: 25%;
+  font-size: 16px;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn--container {
+  display: flex;
+  padding: 0 2rem;
+  margin-top: 5%;
+}
+
+#wishlist,
+#collection {
+  font-size: 14px;
+  font-family: "Montagu Slab";
+}
+
+@media (max-width: 1386px) {
+  .album-details {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .album {
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .album-cover {
+    width: auto;
+  }
+  .btn--container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .album {
+    padding: 1% 4%;
+  }
+  .album-cover {
+    height: 30%;
+  }
+
+  .btn--container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #wishlist,
+  #collection {
+    margin-bottom: 14%;
+  }
+  .album-details {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .album {
+    padding: 1% 2%;
+  }
+  .album-cover {
+    height: 550px;
+  }
+  .album-details {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .album {
+    padding: 1%;
+  }
+  .album-cover {
+    height: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .album {
+    padding: 0;
+  }
+  .album-cover {
+    height: 350px;
+  }
+  .album-details {
+    font-size: 22px;
+    width: 100%;
+  }
+  #wishlist,
+  #collection {
+    font-size: 22px;
+  }
+  .block {
+    display: contents;
+  }
+}
+
+@media (max-width: 350px) {
+  .album-cover {
+    height: 200px;
+  }
+  #wishlist,
+  #collection {
+    font-size: 18px;
+  }
+}
