@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montagu+Slab:opsz,wght@16..144,200;16..144,300;16..144,400&family=Montserrat+Alternates:wght@100;200;300&family=Montserrat:wght@300;600&display=swap");
+
+.container {
+  margin-top: -3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 16%;
+  background-color: #eae5d2;
+  width: 100%;
+  height: 100vh;
+}
+.text {
+  font-family: "Montagu Slab";
+  font-weight: 100;
+  width: 50%;
+  color: #666666;
+  font-size: 24px;
+}
+.img {
+  height: 400px;
+  width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../images/OIG1.svg");
+}
+@media (max-width: 1530px) {
+  .text {
+    font-size: 20px;
+  }
+  .img {
+    width: 550px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .text {
+    font-size: 18px;
+  }
+  .img {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 980px) {
+  .text {
+    font-size: 16px;
+    width: 350px;
+  }
+  .img {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px){
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .img{
+    margin-bottom: 8%;
+  }
+}
+
+@media (max-width: 425px){
+  .img {
+    width: 100%;
+    height: 40%;
+  }
+}

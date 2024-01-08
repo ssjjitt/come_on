@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat+Alternates:wght@100;200;300&family=Montserrat:wght@300;600&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: -1%;
+}
+.text {
+  font-size: 24px;
+  font-weight: 205;
+  color: #da9e63;
+  font-family: "Montserrat Alternates", sans-serif;
+  letter-spacing: 7.2px;
+}

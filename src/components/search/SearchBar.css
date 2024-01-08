@@ -1,0 +1,36 @@
+.searchParams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Montserrat Alternates", sans-serif;
+  letter-spacing: 7.2px;
+  background-color: #eae5d220;
+  color: #da9e63;
+  width: 600px;
+  height: 70px;
+  border: 1px solid #eae5d220;
+  transition: all 0.3s ease-out;
+  cursor: text;
+}
+input:hover {
+  transition: all 0.3s ease-out;
+  color: #fff;
+}
+
+@media (max-width: 610px) {
+  input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  input {
+    width: 200px;
+  }
+}
